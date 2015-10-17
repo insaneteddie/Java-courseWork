@@ -1,0 +1,39 @@
+       ******HELP******
+G22LottoAnalasys Accepts between 1 and 7 Command Line Arguments.
+
+Usage: java G22LottoAnalasys  1|2  A|S|R|LP1|LP2  0|1|2  YYYY or 
+       DD/MM/YYYY DD/MM/YYYY
+
+Or : java G22LottoAnalasys JP1 JP2 JP3 JP4 JP5 JP6 BN
+
+	The Options for the command line arguments :
+Options for First Argument: (java G22LottoAnalasys 1|2)
+1|2 to indicate whether you want Jackpot only or Jackpot and Bonus respectively.
+
+Options for Second Argument: ( java G22LottoAnalasys A|S|R|LP1|LP2)
+A|S|R|LP1|LP2 To indicate draw type desired (A for all, S for Special, R for regular, LP1 for Lotto Plus 1 and LP2 for Lotto Plus 2.)
+
+Options for Third Argument:
+0|1|2 to indicate days draw took place on (0 for Any Day, 1 for Wednesday, 2 for Saturday.)
+
+Options for Fourth Argument:
+A Year ( in the format: YYYY, where Y is any number (in the range 0-9))
+
+Options for Five Arguments: (to analyse data between a start date and end date)
+If you enter five command line arguments:
+Argument 4 and 5 must be a Date in the form  DD/MM/YYYY
+Options for 6 Command Line Arguments: (Jackpot Only)
+JP1 JP2 JP3 JP4 JP5 JP6
+Where JP indicates any number in the range 1-45
+Options for 7 Command Line Arguments: (Jackpot and Bonus Number)
+JP1 JP2 JP3 JP4 JP5 JP6 BN
+Where JP indicates any number in the range 1-45
+Where BN indicates any number in the range 1-45
+If you still require assistance or wish to see this file again 
+You can Enter: java G22LottoAnalasys Help
+
+
+
+       
+
+
